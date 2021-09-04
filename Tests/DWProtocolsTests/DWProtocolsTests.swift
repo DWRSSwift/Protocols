@@ -1,12 +1,12 @@
 import XCTest
-@testable import FluffyProtocols
+@testable import DWProtocols
 
-final class FluffyProtocolsTests: XCTestCase {
+final class DWProtocolsTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(FluffyProtocols().text, "Hello, World!")
+        XCTAssertEqual(DWProtocols().text, "Hello, World!")
     }
 
     static var allTests = [

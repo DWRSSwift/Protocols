@@ -1,7 +1,7 @@
 import XCTest
 
-import FluffyProtocolsTests
+import DWProtocolsTests
 
 var tests = [XCTestCaseEntry]()
-tests += FluffyProtocolsTests.allTests()
+tests += DWProtocolsTests.allTests()
 XCTMain(tests)
